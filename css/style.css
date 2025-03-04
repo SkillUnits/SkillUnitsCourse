@@ -1109,3 +1109,7 @@ footer {
 .format-mobile-block {
     display: none;
 }
+
+.answer .about-card {
+    display: none;
+}

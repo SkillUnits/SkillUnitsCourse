@@ -396,6 +396,7 @@
         display: none;
     }
     .answer .about-card {
+        display: block;
         opacity: 1 !important;
         position: relative;
         width: 343px;
@@ -491,7 +492,7 @@
         padding: 0;
     }
     .answer.visible p {
-        padding: 0;
+        padding: 0 20px;
     }
 
     .format {
