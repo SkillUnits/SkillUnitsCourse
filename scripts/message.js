@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             clearTimeout(timeout);
             timeout = setTimeout(() => {
                 message.style.opacity = "1";
-            }, 300);
+            }, 100);
         }
     });
 });

@@ -5,7 +5,7 @@ const swiper = new Swiper('.purple', {
     spaceBetween: 13,
     freeMode: true,
     slidesPerView: 'auto',
-    speed: 3000,
+    speed: 5500,
     effect: 'slide',
     autoplay: {
         delay: 0,
@@ -19,8 +19,9 @@ const swiper2 = new Swiper('.white', {
     spaceBetween: 13,
     freeMode: true,
     slidesPerView: 'auto',
-    speed: 3000,
+    speed: 5500,
     effect: 'slide',
+    initialSlide: 15,
     autoplay: {
         delay: 0,
         pauseOnMouseEnter: false,

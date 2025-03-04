@@ -1,0 +1,550 @@
+@media screen and (max-width: 1235px) {
+    .header-cards {
+        flex-wrap: wrap;
+    }
+
+    .start { 
+        margin-top: 72px;
+        width: 100%;
+        height: fit-content;
+        border-radius: 20px;
+        background-color: #fff;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        position: relative;
+        margin: 72px auto 0;
+    }
+    .start .mobile {
+        width: 343px;
+        height: 222px;
+        position: relative;
+        left: 0;
+        z-index: 1;
+    }
+    .start .mobile img {
+        width: 100%;
+        height: 100%;
+    }
+    .start .button {
+        max-width: 790px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        border-radius: 20px;
+        background-color: #F4F4F4;
+        padding: 16px 0;
+    }
+    .start .button p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .start .button .reg-button {
+        width: 273px;
+        height: 36px;
+        gap: 8px;
+    }
+    .start .button .reg-button img {
+        width: 24px;
+    }
+    
+    .mobile .message {
+        width: 134px;
+        height: 30px;
+        border-radius: 18px;
+        border-bottom-left-radius: 0;
+        left: 23px;
+        bottom: 1px;
+        z-index: 100;
+    }
+    .mobile .message p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header-cards {
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .header-card {
+        width: 400px;
+        position: relative;
+    }
+
+    .income {
+        margin-top: 44px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .income-card {
+        max-width: 100%;
+        width: 100%;
+        border-radius: 18px;
+    }
+    .income-card-container {
+        width: 100%;
+        padding: 12px;
+        gap: 8px;
+    }
+    .income-card:first-of-type .income-card-container {
+        gap: 8px;
+    }
+    .income-card:last-of-type .income-card-container {
+        gap: 8px;
+    }
+    .income-card .title h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .income-card .title svg {
+        width: 44px;
+        height: 44px;
+    }
+    .income-card .content {
+        justify-content: space-between;
+    }
+    .income-card .content p {
+        font-size: 14px;
+        line-height: 19px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        background-image: none;
+    }
+
+    nav {
+        margin: 0 auto;
+        width: 91%;
+    }
+    nav .logo {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    nav .nav-button {
+        width: 144px;
+        height: 36px;
+        font-size: 16px;
+    }
+
+    header {
+        padding-top: 32px;
+        background-image: none;
+    }
+    .header-container {
+        margin: 60px auto 0;
+    }
+    .header-container .pre-title {
+        font-size: 16px;
+    }
+    .header-container h1 {
+        font-size: 32px;
+        line-height: 43px;
+        margin-top: 24px;
+    }
+    .header-container .pre-button-text {
+        display: none;
+    }
+    .header-container .reg-button {
+        display: none;
+    }
+
+    .header-cards {
+        margin: 24px auto 0;
+    }
+    .header-card {
+        width: 100%;
+        min-height: 108px;
+        height: fit-content;
+    }
+    .header-card-container h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    section {
+        margin: 72px auto 0;
+    }
+    section h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    section p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    article p {
+        margin-top: 32px;
+        padding-left: 67px;
+    }
+    article div {
+        gap: 24px;
+    }
+
+    .about {
+        margin-top: 44px;
+        gap: 20px;
+    }
+    
+    .about-right {
+        margin-top: 0;
+    }
+    .about-item {
+        margin-top: 24px;
+        padding-left: 20px;
+    }
+    .about-item.active {
+        padding: 20px;
+    }
+    .about-item .question p {
+        font-size: 20px;
+    }
+    .about-item .answer p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .arbitrage {
+        display: none;
+    }
+    .faqs-list {
+        display: flex;
+    }
+
+    section .pre-button-text {
+        margin: 32px auto 0;
+    }
+    section .reg-button {
+        width: 144px;
+        height: 36px;
+        font-size: 16px;
+        margin: 16px auto 0;
+    }
+
+    .banners {
+        margin: 44px 0 0;
+        height: 72px;
+    }
+    .banner {
+        position: absolute;
+        width: 100.8vw;
+        margin-left: -0.4vw;
+    }
+    .banner-slide {
+        gap: 9px;
+    }
+    .banner-slide img {
+        width: 32px;
+    }
+    .banner-slide p {
+        font-size: 16px;
+    }
+
+    .block-title {
+        margin-top: 44px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .steps {
+        margin-top: 32px;
+        gap: 0;
+        background-color: #F4F4F4;
+        border-radius: 18px;
+        padding: 12px 0;
+    }
+    .step {
+        border-radius: 18px;
+        background-color: #F4F4F4;
+    }
+    .step:hover {
+        background-color: #F4F4F4;
+    }
+    .step-container {
+        padding: 12px 20px;
+    }
+    .step p {
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 400;
+        color: #1A1B25;
+    }
+
+    .format {
+        justify-content: center;
+    }
+
+    .team {
+        margin: 44px auto 0;
+    }
+    .swiper-wrapper {
+        gap: 20px;
+    }
+    .team-slide {
+        max-width: 285px;
+        width: 100%;
+        height: 360px;
+    }
+    .team-content {
+        opacity: 1;
+    }
+    .team-content p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .team-content .position {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .whatuget {
+        margin-top: 44px;
+    }
+    .whatuget-container {
+        padding: 24px 12px;
+        gap: 32px;
+    }
+    .whatuget h3 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .whatuget-list {
+        gap: 24px;
+    }
+    .whatuget-item {
+        gap: 23px;
+    }
+    .whatuget-item .list-num {
+        min-width: 32px;
+        height: 32px;
+        font-size: 20px;
+    }
+    .whatuget-item p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .fomo {
+        margin: 44px auto 0;
+    }
+    .fomo-container {
+        padding: 24px 12px;
+        gap: 20px;
+    }
+    .fomo img {
+        width: 44px;
+    }
+    .fomo p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .fomo + .reg-button {
+        margin-top: 16px;
+        width: 209px;
+        height: 36px;
+    }
+
+    article div .line {
+        gap: 24px;
+    }
+    article div .line:first-of-type {
+        margin-top: 32px;
+    }
+    article div .line img {
+        width: 28px;
+    }
+    article div .line p {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        margin: 72px auto 0;
+        border-top: none;
+    }
+    .footer-top {
+        gap: 12px;
+    }
+    .footer-top a {
+        font-size: 18px;
+    }
+    .footer-mid {
+        margin-top: 32px;
+    }
+    .footer-mid p {
+        font-size: 54px;
+        line-height: 61px;
+    }
+    .copyright {
+        margin: 10px auto 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-left {
+        display: none;
+    }
+    .answer .about-card {
+        opacity: 1 !important;
+        position: relative;
+        width: 343px;
+        height: 257px;
+        margin: 0 auto;
+    }
+    .about-item.active {
+        padding: 0;
+    }
+    .about-card .about-image {
+        width: 182px;
+        height: 127px;
+        top: 54px;
+        right: 37px;
+    }
+    .about-card .about-sticker {
+        width: 151px;
+        height: 151px;
+        top: 56px;
+        left: 28px;
+        z-index: 2;
+        transition: all .5s ease;
+    }
+    .about-card .emoji {
+        width: 49px;
+        height: 33px;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+    #card-1 #emoji-1 {
+        top: 35px;
+        right: 28px;
+    }
+    #card-1 #emoji-2 {
+        bottom: 34px;
+        right: 120px;
+    }
+    #card-2 #emoji-1 {
+        top: 43px;
+        left: 60px;
+    }
+    #card-2 .about-image {
+        width: 130px;
+        height: 130px;
+        top: 48px;
+        right: 49px;
+    }
+    #card-2 .about-sticker {
+        top: 63px;
+        left: 49px;
+    }
+    #card-3 #emoji-1 {
+        top: 42px;
+        right: 31px;
+    }
+    #card-3 #emoji-2 {
+        top: 81px;
+        left: 31px;
+    }
+    #card-3 .about-image {
+        width: 161px;
+        height: 113px;
+        top: 59px;
+        right: 34px;
+    }
+    #card-3 .about-sticker {
+        top: 64px;
+        left: 44px;
+    }
+    #card-4 #emoji-1 {
+        top: 41px;
+        left: 38px;
+    }
+    #card-4 #emoji-2 {
+        bottom: 48px;
+        right: 39px;
+    }
+    #card-4 .about-image {
+        width: 124px;
+        height: 79px;
+        top: 65px;
+        right: 53px;
+    }
+    #card-4 .about-sticker {
+        top: 66px;
+        left: 38px;
+    }
+
+    .about-item .question {
+        padding: 20px 20px 0 20px;
+    }
+    .answer.visible {
+        padding: 0;
+    }
+    .answer.visible p {
+        padding: 0;
+    }
+
+    .format {
+        margin-top: 44px;
+    }
+    .format-left {
+        display: none;
+    }
+    .format-right {
+        gap: 44px;
+    }
+    .format-card {
+        border-radius: 18px;
+    }
+    .format-card h3{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .format-card .selected {
+        padding: 0 7px;
+        height: 36px;
+        min-width: 36px;
+        border-radius: 24px;
+        font-size: 16px;
+    }
+    .format-card .line p {
+        font-size: 16px;
+    }
+    .format-card-container {
+        padding: 20px 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .format-mobile-block {
+        display: block;
+        width: 307px;
+        height: 237px;
+        position: relative;
+        margin: 0 auto 40px;
+    }
+    .format-mobile-block .format-image {
+        width: 258px;
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        z-index: 1;
+    }
+    .format-mobile-block .format-sticker {
+        width: 151px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+    }
+}
